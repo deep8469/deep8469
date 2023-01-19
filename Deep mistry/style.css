@@ -1,59 +1,66 @@
 body {
-    text-decoration: darkviolet;
-    background-color: rgb(138, 189, 196);
-    color: rgb(212, 74, 127);
-    font-family: "open Sans", sans-serif;
-    letter-spacing: 2px;
-    text-shadow: 20px;
-}
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #694949;
+    font-family: 'Poppins', sans-serif;
+  
+  }
+  
+  h1{
+    color: rgb(201, 207, 212);
+    font-size: 40px;
+  }
+  h3{
+    color: rgb(207, 216, 223);
+  }
 
-.profile-picture {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: 10%;
-    height: auto;
-    max-width: 200px;
-    border-radius: 40%;
-    text-shadow: 30px;
-    text-decoration-color: blue;
-}
-
-.profile-name {
-    text-align: center;
-    padding: 30px;
-    font-size: 50px;
-    text-decoration: underline;
-    text-transform: uppercase;
-    text-size-adjust: 30px;
-    justify-content: center;
-    border-radius: 40%;
-    text-align: center;
-    transition: cubic-bezier();
-}
-
-.links {
-    text-align: center;
-    margin-top: 20px;
-    border: 1px solid red;
-    border-width: 2px;
+  .btn {
+    display: inline-block;
+    text-decoration: none; 
+    background-color:#748dc4;
+    color: rgb(0, 0, 0);
+    width: 60%;
     padding: 20px;
-    width: 290px;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    border-radius: 40px;
-    font-size: 18px;
+    border-radius: 90px;
+    margin: 10px;
+    font-size: 20px;
+    font-family: 'Courier New', Courier, monospace;
+    
+  }
+  
+  .container{
+    text-align: center;
+    padding-top: 40px;
+    
+
+  }
+  .btn:hover{
+    background-color: #f1f3f7;
+    transition: .3s;
+  }
+.img{
+  /* padding-top: 100px; */
+  height: 130px;
+  width: 130px;
+  border-radius: 30%;
+}
+.icon{
+  height: 25px;
+}
+.user{
+  height: 40px;
 }
 
-a {
-    text-decoration: none;
-    color: purple;
-    transition: 1s;
+.fa-brands{
+  margin-right: 10px;
 }
 
-a:hover {
-    color: black;
-    background-color: white;
-    background-position: 30%;
+a{
+  /* transition: transform 15s ease; */
+}
+
+a:hover{
+  transform: scale(1.05);
+  /* transform: rotate(360deg); */
+  
+ 
 }
