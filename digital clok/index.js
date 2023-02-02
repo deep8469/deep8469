@@ -13,6 +13,9 @@ function updateClock() {
         h = h - 12
         ampm = "PM"
     }
+
+    ampmE1.innerText = "PM"
+
     h = h < 10 ? "0" + h : h;
     m = m < 10 ? "0" + m : m;
     s = s < 10 ? "0" + s : s;
@@ -20,7 +23,7 @@ function updateClock() {
     hourEl.innerText = h;
     minuutesEl.innerText = m;
     secondsEl.innerText = s;
-    ampmE1, (innerText = ampm);
+    
     setTimeout(() => {
         updateClock()
     }, 1000)
